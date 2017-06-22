@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title><%= htmlWebpackPlugin.options.title%></title>
+        <!--<script type="text/javascript">
+                <%= compilation.assets[htmlWebpackPlugin.files.chunks.main.entry.substr(htmlWebpackPlugin.files.publicPath.length)].source() %>
+        </script>-->
+    </head>
+<body>  
+    <h1>hello world</h1>
+
+
+    <!--<%for (var k in htmlWebpackPlugin.files.chunks){%>
+        <%if(k !== 'main'){%>
+                <script src='<%=htmlWebpackPlugin.files.chunks[k].entry%>'></script>
+        <%}%>
+    <%}%>-->
+</body>
+
+</html>
